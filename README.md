@@ -15,7 +15,18 @@ Plugin config files (if plugin supports it ) in BepInEx\config
 
 By default, i have included a plugin that gives you god mode. if you dont want it, delete the MuckGod plugin.
 
-I will upload a Visual Studio Template to create your own mods.
+
+
+--------- Visual Studio Template / MuckTemplate
+
+In the file "GameDir.targets", be sure to changle the line to match your installation path. " <GameDir>yoursteampath\steamapps\common\Muck</GameDir> "
+and be sure to have your publicised assemblies in tact.
+By default, i have included some plugins from their respective authors,
+to create these publicised assemblies for you, when you first launch the game with BepInEx installed.
+
+
+
+
 
 Last but not least,
 
