@@ -1,5 +1,9 @@
 # Muck-BepInEx
 
+Join us on Discord!
+
+https://discord.gg/RVU9UzAR
+
 Installation:
 clone or download this repository ( or if you dont know how, click here: https://github.com/NullNRG/Muck-BepInEx/archive/refs/heads/main.zip ), 
 
