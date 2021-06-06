@@ -13,6 +13,8 @@ run Muck.
 Plugins are located in BepInEx\plugins
 Plugin config files (if plugin supports it ) in BepInEx\config
 
+By default, i have included a plugin that gives you god mode. if you dont want it, delete the MuckGod plugin.
+
 I will upload a Visual Studio Template to create your own mods.
 
 Last but not least,
