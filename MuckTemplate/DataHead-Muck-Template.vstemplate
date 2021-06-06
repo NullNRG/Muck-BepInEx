@@ -1,0 +1,37 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>DataHead-Muck-Template</Name>
+    <Description>This is a Bepinex/Thunderstore mod template using the Assembly Publicizer</Description>
+    <ProjectType>CSharp</ProjectType>
+	<LanguageTag>C#</LanguageTag>
+    <PlatformTag>windows</PlatformTag>
+	<ProjectTypeTag>Mods</ProjectTypeTag>		  
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>DataHead-Muck-Template</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="DataHead-Muck-Template.csproj" File="DataHead-Muck-Template.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="GameDir.targets">GameDir.targets</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Main.cs">Main.cs</ProjectItem>
+      <Folder Name="Package" TargetFolderName="Package">
+        <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="manifest.json">manifest.json</ProjectItem>
+        <Folder Name="plugins" TargetFolderName="plugins">
+          <Folder Name="DataHead-Muck-Template" ReplaceParameters="true" TargetFolderName="DataHead-Muck-Template" />
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="README.md">README.md</ProjectItem>
+      </Folder>
+      <Folder Name="Patches" TargetFolderName="Patches">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Patches.cs">Patches.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
