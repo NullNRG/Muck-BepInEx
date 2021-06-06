@@ -11,7 +11,7 @@ clone or download this repository ( or if you dont know how, click here: https:/
 copy all the files from the "Muck-BepInEx-main" folder in the archive, into the root of the Muck game directory.
 if it asks to replace any files, yeah, do that. if it's a fresh install, shouldnt need to.
 
-ex: "your steam installation path"\steamapps\common\Muck
+  ex: "your steam installation path"\steamapps\common\Muck
 
 run Muck.
 
@@ -19,7 +19,10 @@ Plugins are located in BepInEx\plugins
 Plugin config files (if plugin supports it ) in BepInEx\config
 
 By default, i have included a plugin that gives you god mode. if you dont want it, delete the MuckGod plugin.
+For any plugins, if you wish to delete any, just remove them from the "\BepInEx\plugins\" folder.
+I will also provide some plugins here: https://github.com/NullNRG/Muck-BepInEx-Plugins 
 
+put the plugins in the "\BepinEx\plugins\" folder.
 
 
 --------- Visual Studio Template / MuckTemplate
