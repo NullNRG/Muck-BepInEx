@@ -1,7 +1,7 @@
 
-# $safeprojectname$ for Valheim
+# $safeprojectname$ for Muck
 
-This is a Bepinex mod for Valheim that .
+This is a Bepinex mod for Muck.
 
 ## Installation (manual)
 
