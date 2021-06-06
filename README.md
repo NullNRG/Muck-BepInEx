@@ -1,7 +1,9 @@
 # Muck-BepInEx
 
 Installation:
-Clone / download this repository, copied all the files into the root of the Muck game directory.
+clone or download this repository ( or if you dont know how, click here: https://github.com/NullNRG/Muck-BepInEx/archive/refs/heads/main.zip ), copy all the files into the root of the Muck game directory.
+if it asks to replace any files, yeah, do that. but if its a fresh install, shouldnt need to.
+
 ex: "your steam installation path"\steamapps\common\Muck
 
 run Muck.
