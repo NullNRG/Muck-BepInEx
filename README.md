@@ -2,7 +2,7 @@
 
 Want to help grow the Muck modding community? Join us on Discord! 
 
-https://discord.gg/RVU9UzAR
+https://discord.gg/M27wjFAfTQ
 
 
 Installation:
