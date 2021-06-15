@@ -24,6 +24,9 @@ I will also provide some plugins here: https://github.com/NullNRG/Muck-BepInEx-P
 
 put the plugins in the "\BepinEx\plugins\" folder.
 
+By default, i have included some plugins from their respective authors,
+to create these publicised assemblies for you, when you first launch the game with BepInEx installed.
+
 Looking to mod Muck with BepInEx? I have a template, here! with thunderstore package support!
 https://github.com/NullNRG/Muck-BepInEx-ModTemplate
 
