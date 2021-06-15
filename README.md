@@ -24,21 +24,8 @@ I will also provide some plugins here: https://github.com/NullNRG/Muck-BepInEx-P
 
 put the plugins in the "\BepinEx\plugins\" folder.
 
-
---------- Visual Studio Template / MuckTemplate
-
-In the file "GameDir.targets", be sure to changle the line to match your installation path. " <GameDir>yoursteampath\steamapps\common\Muck</GameDir> "
-and be sure to have your publicised assemblies in tact.
-By default, i have included some plugins from their respective authors,
-to create these publicised assemblies for you, when you first launch the game with BepInEx installed.
-This template is not needed if you only intend to play with the mods, and not develop them. so you can safely delete the MuckTemplate folder.
-
-
-
-
-
-
-
+Looking to mod Muck with BepInEx? I have a template, here! with thunderstore package support!
+https://github.com/NullNRG/Muck-BepInEx-ModTemplate
 
 Last but not least,
 
